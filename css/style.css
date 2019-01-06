@@ -17,4 +17,33 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1, h2 {
+  color: rgb(159, 170, 166);
+}
+
+img {
+  border: 2px solid rgb(159, 170, 166);
+}
+
+.press-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.press-images a {
+  text-decoration: none;
+}
+
+.press-images img {
+  transition: border 1s;
+}
+
+.press-images img:hover {
+  border: 2px solid black;
+}
+
+p.trademark {
+  text-align: right;
+}
+
 /* Write all remaining styles here */
